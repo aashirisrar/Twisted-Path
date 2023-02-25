@@ -178,7 +178,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: db7f2d0b961875d4c94c06fa37b367ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -232,8 +232,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 21941387}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5000001
-  m_Speed: 3.5
+  m_Radius: 1.1
+  m_Speed: 1.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -241,7 +241,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 1.9999999
+  m_Height: 2
   m_BaseOffset: 0.99999994
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -387,6 +387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 10_10(50-20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: edb4e0aa795192d4aa9827bc6a720c20,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edb4e0aa795192d4aa9827bc6a720c20, type: 3}
@@ -669,9 +674,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 26.991467
+  field of view: 21
   orthographic: 0
-  orthographic size: 2.46
+  orthographic size: 5.17
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -694,11 +699,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.40127733, y: -0, z: -0, w: 0.9159567}
-  m_LocalPosition: {x: -0.8, y: 13, z: -12.62}
+  m_LocalRotation: {x: 0.5350129, y: -0, z: -0, w: 0.84484386}
+  m_LocalPosition: {x: -0.14, y: 36, z: -17.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 47.316, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 64.69, y: 0, z: 0}
