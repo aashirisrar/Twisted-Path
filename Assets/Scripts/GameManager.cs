@@ -21,4 +21,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Level Selector");
     }
+
+    public void Level1()
+    {
+        SceneManager.LoadScene("Level 1");
+    }
 }
