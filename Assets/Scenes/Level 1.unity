@@ -288,11 +288,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 8
-=======
-  m_RootOrder: 7
->>>>>>> parent of e4f3618 (added the key spawner)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &144522209
 GameObject:
@@ -480,15 +476,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
 =======
-=======
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of e4f3618 (added the key spawner)
 --- !u!1001 &476552286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1026,7 +1017,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1686976019
@@ -1255,7 +1245,3 @@ MeshFilter:
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of e4f3618 (added the key spawner)
