@@ -8,6 +8,7 @@ public class KeySpawner : MonoBehaviour
 
 
     // Start is called before the first frame update
+    [ContextMenu("Spawn new cubes")] //spawner checker
     void Start()
     {
         int rand = Random.Range(0, spawnPoints.Length);
@@ -17,6 +18,6 @@ public class KeySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
