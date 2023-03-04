@@ -3400,6 +3400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelMenu: {fileID: 1788792479}
+  pauseBtn: {fileID: 1138810760}
 --- !u!54 &1811933187
 Rigidbody:
   m_ObjectHideFlags: 0
