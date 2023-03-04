@@ -92,4 +92,12 @@ public class EnemyAI : MonoBehaviour
             waypointIndex = 0;
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            Destroy(other.gameObject);  
+        }
+    }
 }
