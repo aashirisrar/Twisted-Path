@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LevelEnd : MonoBehaviour
 {
+    public GameObject nextLevelMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,8 @@ public class LevelEnd : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            Debug.Log("Hello");
+            nextLevelMenu.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }
