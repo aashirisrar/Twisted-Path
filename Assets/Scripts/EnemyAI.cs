@@ -15,6 +15,9 @@ public class EnemyAI : MonoBehaviour
     public LayerMask obstacleLayer;
     public float viewAngle = 45f;
 
+    public GameObject restartMenu;
+    public GameObject pauseBtn;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -34,10 +37,7 @@ public class EnemyAI : MonoBehaviour
             target = player.transform.position;
             agent.SetDestination(target);
             // Check for collision with the player
-            if (playerDistance < distancevalue)
-            {
-                Destroy(player);
-            }
+            
         }
         else if (playerInSight && playerDistance < chaseRange)
         {
@@ -93,11 +93,16 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+
+        if (other.gameObject.tag == "Player")
         {
-            Destroy(other.gameObject);  
+            restartMenu.SetActive(true);
+            pauseBtn.SetActive(false);
+            Time.timeScale = 0f;
         }
     }
+
 }
