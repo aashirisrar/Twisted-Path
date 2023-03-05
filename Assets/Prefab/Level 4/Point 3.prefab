@@ -47,6 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81c1f7f3d95e0fe4f9edd27a87a8dc72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyCollectSFX: {fileID: 8483009010070081060, guid: b42e98667de8e9f44a8b15413dd636da,
+    type: 3}
 --- !u!135 &1067783608
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -289,6 +291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81c1f7f3d95e0fe4f9edd27a87a8dc72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyCollectSFX: {fileID: 8483009010070081060, guid: b42e98667de8e9f44a8b15413dd636da,
+    type: 3}
 --- !u!135 &1067783606
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -578,6 +582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81c1f7f3d95e0fe4f9edd27a87a8dc72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyCollectSFX: {fileID: 8483009010070081060, guid: b42e98667de8e9f44a8b15413dd636da,
+    type: 3}
 --- !u!135 &1067783607
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class KeyRotator : MonoBehaviour
 {
+    public GameObject keyCollectSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class KeyRotator : MonoBehaviour
         if(collision.gameObject.name == "Player")
         {
             Destroy(gameObject);
+            Instantiate(keyCollectSFX, transform.position, Quaternion.identity);
         }
     }
 
