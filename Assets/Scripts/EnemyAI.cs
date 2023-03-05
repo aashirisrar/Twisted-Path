@@ -18,6 +18,8 @@ public class EnemyAI : MonoBehaviour
     public GameObject restartMenu;
     public GameObject pauseBtn;
 
+    public GameObject playerDeadSFX;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -96,9 +98,9 @@ public class EnemyAI : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject.tag == "Player")
         {
+            Instantiate(playerDeadSFX, transform.position, Quaternion.identity);
             restartMenu.SetActive(true);
             pauseBtn.SetActive(false);
             Time.timeScale = 0f;
