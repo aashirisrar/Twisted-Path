@@ -969,6 +969,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 7.32
       objectReference: {fileID: 0}
+    - target: {fileID: 4782678322724590845, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: m_Name
+      value: E_WP_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4782678322832163708, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -983,6 +988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 7.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782678322832163711, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: m_Name
+      value: E_WP_2
       objectReference: {fileID: 0}
     - target: {fileID: 4782678323596752384, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
@@ -1033,6 +1043,11 @@ PrefabInstance:
         type: 3}
       propertyPath: obstacleLayer.m_Bits
       value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782678323596752387, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy_2
       objectReference: {fileID: 0}
     - target: {fileID: 4782678323596752387, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
@@ -3605,8 +3620,8 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 3.34
   m_Range: 9.44
-  m_SpotAngle: 83
-  m_InnerSpotAngle: 8
+  m_SpotAngle: 70
+  m_InnerSpotAngle: 6
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
