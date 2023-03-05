@@ -896,7 +896,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541169228}
-  m_LocalRotation: {x: 0.3588172, y: -0.37097907, z: 0.15813066, w: 0.8417954}
+  m_LocalRotation: {x: 0.3588172, y: -0.3709791, z: 0.15813066, w: 0.8417954}
   m_LocalPosition: {x: 7.46, y: 10.53, z: -11.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1332,7 +1332,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: NextLevel
         m_Mode: 1
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
@@ -2171,7 +2171,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: PauseMenuActive
         m_Mode: 1
@@ -2231,13 +2231,14 @@ GameObject:
   m_Component:
   - component: {fileID: 945091968}
   - component: {fileID: 945091967}
+  - component: {fileID: 945091969}
   m_Layer: 0
   m_Name: GM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &945091967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2268,6 +2269,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &945091969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945091966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f097f0a85407947b3b5a129144969d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 1252906530}
+  pauseBtn: {fileID: 918113303}
 --- !u!1 &949405959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,7 +2496,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.3588172, y: -0.37097907, z: 0.15813066, w: 0.8417954}
+  m_LocalRotation: {x: 0.3588172, y: -0.3709791, z: 0.15813066, w: 0.8417954}
   m_LocalPosition: {x: 7.46, y: 10.53, z: -11.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3767,7 +3782,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
@@ -3900,7 +3915,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ReturnToMainMenu
         m_Mode: 1
@@ -4033,7 +4048,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ReturnToMainMenu
         m_Mode: 1
@@ -4370,7 +4385,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
@@ -4469,8 +4484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 113886f2943ffc540b44bddcdbc2df12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelMenu: {fileID: 0}
-  pauseBtn: {fileID: 0}
+  nextLevelMenu: {fileID: 1035844439}
+  pauseBtn: {fileID: 918113303}
 --- !u!65 &1858880551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4726,7 +4741,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 945091969}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: PauseMenuDeactivate
         m_Mode: 1
