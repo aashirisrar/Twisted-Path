@@ -69,4 +69,28 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Level 1");
         Time.timeScale = 1f;    
     }
+
+    public void Level2()
+    {
+        SceneManager.LoadScene("Level 2");
+        Time.timeScale = 1f;
+    }
+
+    public void Level3()
+    {
+        SceneManager.LoadScene("Level 3");
+        Time.timeScale = 1f;
+    }
+
+    public void Level4()
+    {
+        SceneManager.LoadScene("Level 4");
+        Time.timeScale = 1f;
+    }
+
+    public void Level5()
+    {
+        SceneManager.LoadScene("Level 5");
+        Time.timeScale = 1f;
+    }
 }
