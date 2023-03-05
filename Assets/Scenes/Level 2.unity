@@ -1817,7 +1817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &945091967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2091,8 +2091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 113886f2943ffc540b44bddcdbc2df12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelMenu: {fileID: 0}
-  pauseBtn: {fileID: 0}
+  nextLevelMenu: {fileID: 1703032139}
+  pauseBtn: {fileID: 860252975}
 --- !u!65 &1010910920
 BoxCollider:
   m_ObjectHideFlags: 0
