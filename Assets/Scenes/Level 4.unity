@@ -1688,7 +1688,7 @@ PrefabInstance:
     - target: {fileID: 4782678321589752869, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4782678322469466977, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
@@ -1757,6 +1757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
+      propertyPath: pauseBtn
+      value: 
+      objectReference: {fileID: 2021030737}
+    - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
       propertyPath: viewAngle
       value: 1
       objectReference: {fileID: 0}
@@ -1770,6 +1775,11 @@ PrefabInstance:
       propertyPath: attackRange
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: restartMenu
+      value: 
+      objectReference: {fileID: 1430405199}
     - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: distancevalue
@@ -1804,6 +1814,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Acceleration
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782678323596752391, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d003bbf1ff93a9e46a452bdd25f453c6, type: 3}
@@ -2566,7 +2581,7 @@ PrefabInstance:
     - target: {fileID: 4782678321589752869, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4782678322469466977, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
@@ -2601,7 +2616,7 @@ PrefabInstance:
     - target: {fileID: 4782678322832163708, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.8
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 4782678322832163708, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
@@ -2655,6 +2670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
+      propertyPath: pauseBtn
+      value: 
+      objectReference: {fileID: 2021030737}
+    - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
       propertyPath: viewAngle
       value: 1
       objectReference: {fileID: 0}
@@ -2668,6 +2688,11 @@ PrefabInstance:
       propertyPath: attackRange
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: restartMenu
+      value: 
+      objectReference: {fileID: 1430405199}
     - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: distancevalue
@@ -2702,6 +2727,11 @@ PrefabInstance:
         type: 3}
       propertyPath: avoidancePriority
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782678323596752391, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d003bbf1ff93a9e46a452bdd25f453c6, type: 3}
@@ -3434,7 +3464,7 @@ PrefabInstance:
     - target: {fileID: 4782678321589752869, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4782678322469466977, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
@@ -3459,7 +3489,7 @@ PrefabInstance:
     - target: {fileID: 4782678322724590834, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.08
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 4782678322724590845, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
@@ -3503,6 +3533,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
+      propertyPath: pauseBtn
+      value: 
+      objectReference: {fileID: 2021030737}
+    - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
       propertyPath: viewAngle
       value: 1
       objectReference: {fileID: 0}
@@ -3516,6 +3551,11 @@ PrefabInstance:
       propertyPath: attackRange
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: restartMenu
+      value: 
+      objectReference: {fileID: 1430405199}
     - target: {fileID: 4782678323596752385, guid: d003bbf1ff93a9e46a452bdd25f453c6,
         type: 3}
       propertyPath: distancevalue
@@ -3550,6 +3590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Acceleration
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782678323596752391, guid: d003bbf1ff93a9e46a452bdd25f453c6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d003bbf1ff93a9e46a452bdd25f453c6, type: 3}
