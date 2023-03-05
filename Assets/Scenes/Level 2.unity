@@ -1831,8 +1831,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoints:
-  - {fileID: 7186050468132102046, guid: 322792058bf212a439b274879b43d568, type: 3}
-  - {fileID: 1772729245975325194, guid: efbc88fd9fc978347aaf2fe861be4436, type: 3}
+  - {fileID: 1772729245975325194, guid: 287e2d7e93d1e3e42a766f51c0b12404, type: 3}
+  - {fileID: 7186050468132102046, guid: 9124146869f42354da2ba394a19f4432, type: 3}
 --- !u!4 &945091968
 Transform:
   m_ObjectHideFlags: 0
